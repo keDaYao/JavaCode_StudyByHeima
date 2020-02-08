@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/qingtai_ssm_dao/qingtai_ssm_dao.iml" filepath="$PROJECT_DIR$/qingtai_ssm_dao/qingtai_ssm_dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/qingtai_ssm_domain/qingtai_ssm_domain.iml" filepath="$PROJECT_DIR$/qingtai_ssm_domain/qingtai_ssm_domain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/qingtai_ssm_service/qingtai_ssm_service.iml" filepath="$PROJECT_DIR$/qingtai_ssm_service/qingtai_ssm_service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/qingtai_ssm_utils/qingtai_ssm_utils.iml" filepath="$PROJECT_DIR$/qingtai_ssm_utils/qingtai_ssm_utils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/qingtai_ssm_web/qingtai_ssm_web.iml" filepath="$PROJECT_DIR$/qingtai_ssm_web/qingtai_ssm_web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ssmall.iml" filepath="$PROJECT_DIR$/ssmall.iml" />
+    </modules>
+  </component>
+</project>
