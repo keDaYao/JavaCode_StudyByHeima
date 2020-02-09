@@ -1,5 +1,6 @@
 package com.qingtai.ssm.service.impl;
 
+import com.github.pagehelper.PageHelper;
 import com.qingtai.ssm.dao.IOrdersDao;
 import com.qingtai.ssm.domain.Orders;
 import com.qingtai.ssm.service.IOrdersService;
@@ -20,5 +21,16 @@ public class OrdersServiceImpl implements IOrdersService {
     @Override
     public List<Orders> findAll() throws Exception {
         return ordersDao.findAll();
+    }
+
+    @Override
+    public List<Orders> findAllByPage(int page, int pageSize) throws Exception {
+        PageHelper.startPage(page, pageSize);
+        return ordersDao.findAll();
+    }
+
+    @Override
+    public Orders findById(String orderId) throws Exception{
+        return ordersDao.findById(orderId);
     }
 }

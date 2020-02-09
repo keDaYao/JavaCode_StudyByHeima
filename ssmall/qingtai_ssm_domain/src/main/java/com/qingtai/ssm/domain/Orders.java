@@ -19,7 +19,9 @@ public class Orders {
     private int orderStatus;
     private  String orderStatusStr;
     private int peopleCount;
+
     private Product product;
+
     private List<Traveller> travellers;
     private Member member;
     private Integer payType;

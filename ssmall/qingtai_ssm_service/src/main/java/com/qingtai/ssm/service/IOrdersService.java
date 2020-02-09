@@ -9,4 +9,8 @@ public interface IOrdersService {
 
 
     List<Orders> findAll() throws Exception;
+
+    public List<Orders> findAllByPage(int page, int pageSize) throws Exception;
+
+    public Orders findById(String orderId) throws Exception;
 }
