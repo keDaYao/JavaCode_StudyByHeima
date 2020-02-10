@@ -17,4 +17,8 @@ public interface IproductDao {
 
     @Select("select * from product where id = #{id}")
     public Product findById(String id) throws Exception;
+
+
+
+
 }

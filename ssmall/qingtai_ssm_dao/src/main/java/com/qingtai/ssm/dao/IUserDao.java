@@ -1,5 +1,6 @@
 package com.qingtai.ssm.dao;
 
+import com.qingtai.ssm.domain.Role;
 import com.qingtai.ssm.domain.UserInfo;
 import org.apache.ibatis.annotations.*;
 
@@ -40,4 +41,12 @@ public interface IUserDao {
                     many = @Many(select = "com.qingtai.ssm.dao.IRoleDao.findRoleByUserId"))
     })
     public UserInfo finById(String id) throws Exception;
+
+
+    @Select("select * from role where id not in (select roleId from users_role where userId=#{userId})")
+    public List<Role> findOtherRoles(String userId);
+
+    @Insert("insert into users_role(userId,roleId) values(#{userId},#{roleId})")
+    public void addRoleToUser(@Param("userId") String userId, @Param("roleId") String roleId);
+
 }

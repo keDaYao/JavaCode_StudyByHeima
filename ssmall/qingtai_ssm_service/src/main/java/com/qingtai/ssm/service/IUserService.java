@@ -1,5 +1,6 @@
 package com.qingtai.ssm.service;
 
+import com.qingtai.ssm.domain.Role;
 import com.qingtai.ssm.domain.UserInfo;
 import org.springframework.security.core.userdetails.UserDetailsService;
 
@@ -12,6 +13,10 @@ public interface IUserService extends UserDetailsService {
     public void save(UserInfo userInfo) throws Exception;
 
     public UserInfo findById(String id) throws Exception;
+
+    List<Role> findOtherRoles(String userId) throws Exception;
+
+    void addRoleToUser(String userId, String[] roleIds);
 
 
 }

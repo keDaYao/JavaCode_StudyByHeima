@@ -8,9 +8,9 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-<title>数据 - AdminLTE2定制版</title>
-<meta name="description" content="AdminLTE2定制版">
-<meta name="keywords" content="AdminLTE2定制版">
+<title>后台管理系统</title>
+<meta name="description" content="后台管理系统">
+<meta name="keywords" content="后台管理系统">
 
 <!-- Tell the browser to be responsive to screen width -->
 <meta
@@ -151,7 +151,8 @@
 											<td>${role.roleDesc }</td>																				
 											<td class="text-center">
 												<a href="${pageContext.request.contextPath}/role/findById.do?id=${role.id}" class="btn bg-olive btn-xs">详情</a>
-												<a href="${pageContext.request.contextPath}/user/findUserByIdAndAllRole.do?id=${user.id}" class="btn bg-olive btn-xs">添加角色</a>
+												<a href="${pageContext.request.contextPath}/role/deleteRole.do?id=${role.id}" class="btn bg-olive btn-xs">删除角色</a>
+												<a href="${pageContext.request.contextPath}/role/findRoleByIdAndAllPermission.do?id=${role.id}" class="btn bg-olive btn-xs">添加权限</a>
 											</td>
 										</tr>
 									</c:forEach>
@@ -221,7 +222,7 @@
 				<b>Version</b> 1.0.8
 			</div>
 			<strong>Copyright &copy; 2014-2017 <a
-				href="http://www.itcast.cn">研究院研发部</a>.
+				href="">研究院研发部</a>.
 			</strong> All rights reserved. </footer>
 			<!-- 底部导航 /-->
 

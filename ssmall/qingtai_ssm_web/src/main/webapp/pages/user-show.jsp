@@ -8,7 +8,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <title>数据 - AdminLTE2定制版</title>
+    <title>后台管理系统</title>
     <meta name="description" content="AdminLTE2定制版">
     <meta name="keywords" content="AdminLTE2定制版">
 
@@ -213,7 +213,7 @@
             <b>Version</b> 1.0.8
         </div>
         <strong>Copyright &copy; 2014-2017 <a
-                href="http://www.itcast.cn">研究院研发部</a>.
+                href="">研究院研发部</a>.
         </strong> All rights reserved.
     </footer>
     <!-- 底部导航 /-->
