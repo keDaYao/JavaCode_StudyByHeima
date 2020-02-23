@@ -1,0 +1,2 @@
+0:0:0:0:0:0:0:1 - - [14/Feb/2020:21:01:19 +0800] "POST /brand/update.do HTTP/1.1" 302 - http-bio-9101-exec-2 107
+0:0:0:0:0:0:0:1 - - [14/Feb/2020:21:01:19 +0800] "GET /login.html HTTP/1.1" 200 1807 http-bio-9101-exec-3 7

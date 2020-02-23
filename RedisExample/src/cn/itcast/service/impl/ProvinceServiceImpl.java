@@ -29,6 +29,7 @@ public class ProvinceServiceImpl implements ProvinceService {
         //1.1获取redis客户端连接
         Jedis jedis = JedisPoolUtils.getJedis();
         String province_json = jedis.get("province");
+        //[{"id":1,"name":"北京"},{"id":2,"name":"上海"},{"id":3,"name":"广州"},{"id":4,"name":"陕西"}]
 
         //2判断 province_json 数据是否为null
         if(province_json == null || province_json.length() == 0){

@@ -1,0 +1,17 @@
+0:0:0:0:0:0:0:1 - - [14/Feb/2020:22:10:05 +0800] "GET /goods/brand.html HTTP/1.1" 304 - http-bio-9101-exec-6 47
+0:0:0:0:0:0:0:1 - - [14/Feb/2020:22:10:05 +0800] "GET /css/elementui.css HTTP/1.1" 304 - http-bio-9101-exec-5 0
+0:0:0:0:0:0:0:1 - - [14/Feb/2020:22:10:05 +0800] "GET /js/elementui.js HTTP/1.1" 304 - http-bio-9101-exec-3 0
+0:0:0:0:0:0:0:1 - - [14/Feb/2020:22:10:05 +0800] "GET /js/vue.js HTTP/1.1" 304 - http-bio-9101-exec-4 16
+0:0:0:0:0:0:0:1 - - [14/Feb/2020:22:10:05 +0800] "GET /js/axios.js HTTP/1.1" 304 - http-bio-9101-exec-2 16
+0:0:0:0:0:0:0:1 - - [14/Feb/2020:22:10:05 +0800] "GET /css/fonts/element-icons.woff HTTP/1.1" 404 1007 http-bio-9101-exec-1 0
+0:0:0:0:0:0:0:1 - - [14/Feb/2020:22:10:06 +0800] "POST /brand/findPage.do?page=1&size=10 HTTP/1.1" 200 735 http-bio-9101-exec-1 679
+0:0:0:0:0:0:0:1 - - [14/Feb/2020:22:34:10 +0800] "POST /brand/findPage.do?page=18&size=10 HTTP/1.1" 200 345 http-bio-9101-exec-4 32
+0:0:0:0:0:0:0:1 - - [14/Feb/2020:22:34:10 +0800] "GET /img/12.jpg HTTP/1.1" 404 971 http-bio-9101-exec-4 0
+0:0:0:0:0:0:0:1 - - [14/Feb/2020:22:34:10 +0800] "GET /img/11.jpg HTTP/1.1" 404 971 http-bio-9101-exec-4 0
+0:0:0:0:0:0:0:1 - - [14/Feb/2020:22:34:15 +0800] "GET /brand/delete.do?id=325414 HTTP/1.1" 200 35 http-bio-9101-exec-4 16
+0:0:0:0:0:0:0:1 - - [14/Feb/2020:22:34:15 +0800] "POST /brand/findPage.do?page=18&size=10 HTTP/1.1" 200 280 http-bio-9101-exec-4 15
+0:0:0:0:0:0:0:1 - - [14/Feb/2020:22:34:43 +0800] "POST /brand/findPage.do?page=14&size=10 HTTP/1.1" 200 732 http-bio-9101-exec-4 0
+0:0:0:0:0:0:0:1 - - [14/Feb/2020:22:34:45 +0800] "POST /brand/findPage.do?page=1&size=10 HTTP/1.1" 200 735 http-bio-9101-exec-4 15
+0:0:0:0:0:0:0:1 - - [14/Feb/2020:23:46:14 +0800] "GET /brand/findById.do?id=2032 HTTP/1.1" 200 155 http-bio-9101-exec-6 12
+0:0:0:0:0:0:0:1 - - [14/Feb/2020:23:47:13 +0800] "POST /upload/oss.do?folder=brand HTTP/1.1" 200 595 http-bio-9101-exec-6 627
+0:0:0:0:0:0:0:1 - - [14/Feb/2020:23:47:13 +0800] "GET /goods/[object%20Object] HTTP/1.1" 404 997 http-bio-9101-exec-6 1
